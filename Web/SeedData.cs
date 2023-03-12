@@ -11,6 +11,8 @@ public static class SeedData
             var provider = scope.ServiceProvider;
             var quizRepo = provider.GetService<IGenericRepository<Quiz, int>>();
             var quizItemRepo = provider.GetService<IGenericRepository<QuizItem, int>>();
+            
+            
         }
     }
 }
