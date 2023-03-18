@@ -32,14 +32,7 @@ public class MemoryGenericRepository<T, K>:IGenericRepository<T, K> where T: cla
 
     public T? FindById(K id)
     {
-        try
-        {
-            return _data[id];
-        }
-        catch(KeyNotFoundException e)
-        {
-            return null;
-        }
+        return _data.TryGetValue(id, out var  value) ? value : null;
     }
 
     public List<T> FindAll()

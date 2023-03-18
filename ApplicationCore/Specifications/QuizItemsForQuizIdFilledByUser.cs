@@ -1,5 +1,6 @@
 ﻿using System.Linq.Expressions;
-using BackendLab01;
+using ApplicationCore.Interfaces.UserService;
+using ApplicationCore.Models;
 
 namespace ApplicationCore.Interfaces.Criteria;
 

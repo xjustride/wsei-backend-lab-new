@@ -1,7 +1,9 @@
 ﻿using ApplicationCore.Interfaces.Criteria;
 using ApplicationCore.Interfaces.Repository;
+using ApplicationCore.Models;
+using ApplicationCore.Models.QuizAggregate;
 
-namespace BackendLab01;
+namespace ApplicationCore.Interfaces.UserService;
 
 public class QuizUserService: IQuizUserService
 {
@@ -24,6 +26,11 @@ public class QuizUserService: IQuizUserService
     public Quiz? FindQuizById(int id)
     {
         return quizRepository.FindById(id);
+    }
+
+    public List<Quiz> FindAll()
+    {
+        return quizRepository.FindAll();
     }
 
     public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)

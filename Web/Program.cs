@@ -1,7 +1,9 @@
 using ApplicationCore.Interfaces.Repository;
-using BackendLab01;
-using Infrastructure.Memory;
+using ApplicationCore.Interfaces.UserService;
+using ApplicationCore.Models;
+using ApplicationCore.Models.QuizAggregate;
 using Infrastructure.Memory.Repository;
+using Web;
 
 var builder = WebApplication.CreateBuilder(args);
 

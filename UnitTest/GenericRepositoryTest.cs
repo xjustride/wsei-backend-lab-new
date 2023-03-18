@@ -1,6 +1,7 @@
 ﻿using ApplicationCore.Interfaces.Criteria;
-using BackendLab01;
+using ApplicationCore.Interfaces.UserService;
 using ApplicationCore.Interfaces.Repository;
+using ApplicationCore.Models.QuizAggregate;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repository;
 

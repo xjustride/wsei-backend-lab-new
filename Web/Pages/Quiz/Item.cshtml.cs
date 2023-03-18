@@ -1,16 +1,16 @@
+using ApplicationCore.Interfaces.UserService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.CodeAnalysis.Elfie.Serialization;
 
-namespace BackendLab01.Pages
+namespace Web.Pages
 {
     
-    public class QuizModel : PageModel
+    public class QuizItemModel : PageModel
     {
         private readonly IQuizUserService _userService;
 
         private readonly ILogger _logger;
-        public QuizModel(IQuizUserService userService, ILogger<QuizModel> logger)
+        public QuizItemModel(IQuizUserService userService, ILogger<QuizItemModel> logger)
         {
             _userService = userService;
             _logger = logger;

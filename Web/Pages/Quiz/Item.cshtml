@@ -1,5 +1,5 @@
 @page "{quizId}/{itemIndex?}"
-@model BackendLab01.Pages.QuizModel
+@model Web.Pages.QuizItemModel;
 @{
     ViewData["Title"] = "Quiz";
     Layout = "~/Pages/Shared/_Layout.cshtml";
@@ -27,13 +27,3 @@
         <button type="submit">Finish</button>
     }
 </form>
-[
-  {
-    "op": "remove",
-    "path": "/customerName"
-  },
-  {
-    "op": "remove",
-    "path": "/orders/0"
-  }
-]

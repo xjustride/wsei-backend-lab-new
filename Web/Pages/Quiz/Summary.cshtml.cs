@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using ApplicationCore.Interfaces.UserService;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BackendLab01.Pages;
+namespace Web.Pages;
 
 public class Summary : PageModel
 {   
