@@ -6,6 +6,9 @@
 }
 <H3>@ViewData["Title"]</H3>
 <p>Your score is @Model.CorrectAnswerCount</p>
+<form method="post"> 
+    <button type="submit">Generuje certyfikat do pdf</button>
+</form>
 <form method="post" asp-page="Summary">
     <button type="submit">Generuj wynik do PDF</button>
 </form>

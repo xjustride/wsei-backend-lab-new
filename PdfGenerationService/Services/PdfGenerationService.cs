@@ -5,7 +5,7 @@ using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using PdfGenerationService.Configuration;
 
-namespace PdfGenerationService.Services;
+namespace PdfGenerationService;
 
 public class PdfGenerationService: PdfGenerator.PdfGeneratorBase
 {
@@ -18,11 +18,6 @@ public class PdfGenerationService: PdfGenerator.PdfGeneratorBase
         _configuration = configuration;
     }
 
-    public override async Task<Output> Convert(Input input, ServerCallContext context)
-    {
-        return new Output(){Value = input.Value * 10};
-    }
-    
     public override async Task<PdfDocumentResponse> Generate(HtmlDocumentRequest request, ServerCallContext context)
     {
         int a = 5;
