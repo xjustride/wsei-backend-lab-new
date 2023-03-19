@@ -1,4 +1,6 @@
-﻿namespace BackendLab01;
+﻿using ApplicationCore.Models;
+
+namespace ApplicationCore.Interfaces;
 
 public interface IQuizAdminService
 {

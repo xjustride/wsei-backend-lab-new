@@ -1,7 +1,9 @@
 ﻿using ApplicationCore.Interfaces.Criteria;
 using ApplicationCore.Interfaces.Repository;
+using ApplicationCore.Models;
+using ApplicationCore.Specyfications;
 
-namespace BackendLab01;
+namespace ApplicationCore.Interfaces;
 
 public class QuizUserService: IQuizUserService
 {
