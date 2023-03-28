@@ -8,6 +8,7 @@
 <p>Your score is @Model.CorrectAnswerCount</p>
 <form method="post"> 
     <button type="submit">Generuje certyfikat do pdf</button>
+    <input type="hidden" value="@Model.CorrectAnswerCount">
 </form>
 <form method="post" asp-page="Summary">
     <button type="submit">Generuj wynik do PDF</button>

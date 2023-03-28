@@ -14,7 +14,7 @@ public class Summary : PageModel
     private readonly PdfGenerator.PdfGeneratorClient _client;
     
     public int QuizId { get; set; }
-    
+    [BindProperty]
     public int CorrectAnswerCount { get; set; }
     public Summary(IQuizUserService userService, PdfGenerator.PdfGeneratorClient client)
     {
@@ -29,9 +29,9 @@ public class Summary : PageModel
 
     public async Task<ActionResult> OnPostAsync()
     {
+        string name = "Karol";
         var document = await _client.GenerateAsync(new HtmlDocumentRequest()
-            {Content = "<html><h1>Pdf Title</h1><p>Paragraph</p></html>", Name = "Certificate"});
-
+            {Content = $"<html><h1>Certyfikat dla  {name}</h1><p>Zdobył punktów {CorrectAnswerCount}</p></html>", Name = "Certificate"});
         var stream = new MemoryStream(document.Content.ToByteArray());  
         return new FileStreamResult(stream, new MediaTypeHeaderValue("application/pdf"))  
         {  
