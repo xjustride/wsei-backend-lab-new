@@ -1,20 +1,18 @@
 using DinkToPdf;
 using DinkToPdf.Contracts;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using PdfGenerationService.Configuration;
 using PdfGenerationService.Interceptors;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Additional configuration is required to successfully run gRPC on macOS.
-// For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
-
-// Add services to the container.
 builder.Services.AddGrpc(options =>
 {
     options.EnableDetailedErrors = true;
     options.Interceptors.Add<ExceptionInterceptor>();
 });
+
 
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddSingleton(new HtmlToPdfConfiguration());
