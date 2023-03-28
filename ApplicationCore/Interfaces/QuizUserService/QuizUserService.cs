@@ -23,6 +23,11 @@ public class QuizUserService: IQuizUserService
         throw new NotImplementedException();
     }
 
+    public IEnumerable<Quiz> FindAllQuizzes()
+    {
+       return quizRepository.FindAll();
+    }
+
     public Quiz? FindQuizById(int id)
     {
         return quizRepository.FindById(id);
