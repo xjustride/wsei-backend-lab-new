@@ -1,7 +1,7 @@
 ﻿using ApplicationCore.Exceptions;
 using ApplicationCore.Interfaces.Repository;
 using ApplicationCore.Models;
-using ApplicationCore.Specyfications;
+using ApplicationCore.Specifications;
 
 namespace ApplicationCore.Interfaces.QuizUserService;
 

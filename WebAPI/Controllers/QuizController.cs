@@ -34,7 +34,7 @@ public class QuizController: ControllerBase
     {
         try
         {
-            var answer = _service.SaveUserAnswerForQuiz(quizId, dto.UserId, itemId, dto.UserAnswer);
+            var answer = _service.SaveUserAnswerForQuiz(quizId, itemId, dto.UserId, dto.UserAnswer);
             return Created("", answer);
         }
         catch (Exception)
@@ -49,6 +49,18 @@ public class QuizController: ControllerBase
     {
         int userId = 1;
         var answers = _service.GetUserAnswersForQuiz(quizId, userId);
-        //TODO: wykonaj mapowanie listy odpowiedzi na obiekt FeedbackQuizDto 
+        //TODO: zdefiniuj mapper listy odpowiedzi na obiekt FeedbackQuizDto 
+        return new FeedbackQuizDto()
+        {
+            QuizId = quizId,
+            UserId = 1,
+            QuizItemsAnswers = answers.Select(i => new FeedbackQuizItemDto()
+            {
+                Question = i.QuizItem.Question,
+                Answer = i.Answer,
+                IsCorrect = i.IsCorrect(),
+                QuizItemId = i.QuizItem.Id
+            }).ToList()
+        };
     }
 }
