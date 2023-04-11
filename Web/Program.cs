@@ -1,4 +1,5 @@
 using ApplicationCore.Interfaces;
+using ApplicationCore.Interfaces.QuizUserService;
 using ApplicationCore.Interfaces.Repository;
 using ApplicationCore.Models;
 using Infrastructure.Memory.Repository;
