@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitemanswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitemanswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitemuseranswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitemuseranswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\efspecificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\efspecificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T09:06:48.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuizDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\QuizDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\QuizDbContext.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\QuizDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\QuizDbContext.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:07:10.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:06:09.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizItemAnswerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:05:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuizItemUserAnswerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemUserAnswerEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItemUserAnswerEntity.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemUserAnswerEntity.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItemUserAnswerEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:04:32.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:03:49.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizEntity.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizEntity.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizEntity.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:02:31.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizItem.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:01:35.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EFSpecificationEvaluator.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\EFSpecificationEvaluator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\EFSpecificationEvaluator.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\EFSpecificationEvaluator.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\EFSpecificationEvaluator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:59:03.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
