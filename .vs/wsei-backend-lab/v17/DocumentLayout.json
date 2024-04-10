@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitemanswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitemanswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ef\\entities\\quizitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0600120-9C9F-4FD8-985E-C10ABA15FB3E}|Infrastructure\\Infrastructure.csproj|c:\\users\\remo2\\desktop\\lab-06-2024\\wsei-backend-lab-new\\infrastructure\\ef\\entities\\quizitemuseranswerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,12 +46,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Infrastructure",
+              "DocumentIndex": 2,
+              "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
               "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
@@ -60,18 +64,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-10T09:06:48.87Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -83,8 +75,7 @@
               "RelativeToolTip": "Infrastructure\\QuizDbContext.cs",
               "ViewState": "AQIAAE4AAAAAAAAAAAAAAHIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:07:10.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T09:07:10.402Z"
             },
             {
               "$type": "Document",
@@ -96,12 +87,24 @@
               "RelativeToolTip": "Infrastructure\\EF\\Entities\\UserEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:06:09.206Z",
+              "WhenOpened": "2024-04-10T09:06:09.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizItem.cs",
+              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:01:35.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "QuizItemAnswerEntity.cs",
               "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
@@ -109,8 +112,7 @@
               "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItemAnswerEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:05:52.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T09:05:52.292Z"
             },
             {
               "$type": "Document",
@@ -122,12 +124,11 @@
               "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItemUserAnswerEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:04:32.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T09:04:32.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "QuizItemEntity.cs",
               "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItemEntity.cs",
@@ -140,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "QuizEntity.cs",
               "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizEntity.cs",
@@ -148,21 +149,7 @@
               "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:02:31.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuizItem.cs",
-              "DocumentMoniker": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EF\\Entities\\QuizItem.cs",
-              "ToolTip": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\EF\\Entities\\QuizItem.cs",
-              "RelativeToolTip": "Infrastructure\\EF\\Entities\\QuizItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:01:35.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T09:02:31.806Z"
             },
             {
               "$type": "Document",
@@ -174,8 +161,15 @@
               "RelativeToolTip": "Infrastructure\\EF\\EFSpecificationEvaluator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:59:03.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T08:59:03.445Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
