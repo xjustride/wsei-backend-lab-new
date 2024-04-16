@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,16 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -60,36 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -98,34 +93,33 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Collection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             }
           },
           "imports": [
@@ -144,39 +138,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -185,16 +179,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -202,7 +191,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -228,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

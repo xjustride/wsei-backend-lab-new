@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bo7Utj/wKFHa+Yo3+Q5fWbce6OIdNA9OYNoSVc8BQB/xjbvHNjrQVbHRYtjzfPYq4Eo2PX6YnX8Mkc5TgStcnw==",
+  "dgSpecHash": "3R/5QGqx/K1VGi2WMaqkiWlbz3MN+k1eSrt7wcGVLMbkwVh2BEwCqQZaB+3hQzXSVIDE5ZqJxZXE7pMPMNwEzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\remo2\\Desktop\\lab-06-2024\\wsei-backend-lab-new\\PdfGenerationService\\PdfGenerationService.csproj",
+  "projectFilePath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\PdfGenerationService\\PdfGenerationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\remo2\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
     "C:\\Users\\remo2\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",

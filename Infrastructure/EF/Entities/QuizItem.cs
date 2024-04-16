@@ -1,25 +1,16 @@
-﻿using ApplicationCore.Interfaces.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ApplicationCore.Interfaces.Repository;
 
-namespace Infrastructure.EF.Entities
+namespace Infrastructure.EF.Entities;
+
+public class QuizItem : IIdentity<int>
 {
-    public class QuizItem : IIdentity<int>
-    {
-        public int Id { get; set; }
-        public string Question { get; }
-        public List<string> IncorrectAnswers { get; }    // problem!
-        public string CorrectAnswer { get; }
+    public int Id { get; set; }
+    public string Question { get; set; }
+    public ICollection<IncorrectAnswers> IncorrectAnswers { get; set; }
+    public string CorrectAnswer { get; set; }
 
-        public QuizItem(int id, string question, List<string> incorrectAnswers, string correctAnswer)
-        {
-            Id = id;
-            Question = question;
-            IncorrectAnswers = incorrectAnswers;
-            CorrectAnswer = correctAnswer;
-        }
+    public QuizItem()
+    {
+        IncorrectAnswers = new List<IncorrectAnswers>();
     }
 }
