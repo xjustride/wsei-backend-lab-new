@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9/vRGZp7IS2BFtnBmwowJQxNxBUn31ibjc7+v7z1UVQthQt9upV04YWXZ+37GnnUdNnlJJEOD5AjNLbw4p6Bg==",
+  "dgSpecHash": "GUd7QPHxfWQ15JCC8R7VhsFvgsW0YZCKNn5M6Y3Pa1bZitRTvXkJIj3KQrEiSulhfxo1uMmbxdHj88Qq1IrS+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

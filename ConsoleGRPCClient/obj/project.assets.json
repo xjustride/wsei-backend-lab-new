@@ -297,11 +297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
       "projectName": "ConsoleGRPCClient",
-      "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+      "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
       "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ConsoleGRPCClient\\obj\\",
+      "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ConsoleGRPCClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5067,11 +5067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\PdfGenerationService\\PdfGenerationService.csproj",
+      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\PdfGenerationService\\PdfGenerationService.csproj",
       "projectName": "PdfGenerationService",
-      "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\PdfGenerationService\\PdfGenerationService.csproj",
+      "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\PdfGenerationService\\PdfGenerationService.csproj",
       "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\PdfGenerationService\\obj\\",
+      "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\PdfGenerationService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",

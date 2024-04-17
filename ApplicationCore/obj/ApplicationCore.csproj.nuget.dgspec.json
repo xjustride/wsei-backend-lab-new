@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-lab-06-main (1)\\wsei-backend-lab-lab-06-main\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
