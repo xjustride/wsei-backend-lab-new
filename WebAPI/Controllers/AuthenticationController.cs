@@ -23,28 +23,39 @@ public class AuthenticationController : ControllerBase
 {
     private readonly UserManager<UserEntity> _manager;
     private readonly JwtSettings _jwtSettings;
-    private readonly ILogger _logger;
+    private readonly ILogger<AuthenticationController> _logger;
 
-    public AuthenticationController(UserManager<UserEntity> manager, ILogger<AuthenticationController> logger, IConfiguration configuration, JwtSettings jwtSettings)
+    // Połącz wszystkie zależności w jednym konstruktorze
+    public AuthenticationController(
+        UserManager<UserEntity> manager, 
+        JwtSettings jwtSettings, 
+        ILogger<AuthenticationController> logger)
     {
         _manager = manager;
-        _logger = logger;
         _jwtSettings = jwtSettings;
+        _logger = logger;
     }
 
     [HttpPost("login")]
     [AllowAnonymous]
     public async Task<IActionResult> Authenticate([FromBody] LoginUserDto user)
     {
+        _logger.LogInformation("Authentication attempt for user: {LoginName}", user.LoginName);
+
         if (!ModelState.IsValid)
         {
+            _logger.LogWarning("Login failed: Model state is invalid for user: {LoginName}", user.LoginName);
             return Unauthorized();
         }
+
         var logged = await _manager.FindByNameAsync(user.LoginName);
-        if (await _manager.CheckPasswordAsync(logged, user.Password))
+        if (logged != null && await _manager.CheckPasswordAsync(logged, user.Password))
         {
+            _logger.LogInformation("Login successful for user: {LoginName}", user.LoginName);
             return Ok(new {Token = CreateToken(logged)});
         }
+
+        _logger.LogWarning("Login failed: Invalid credentials for user: {LoginName}", user.LoginName);
         return Unauthorized();
     }
 

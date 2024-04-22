@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sBDrNC9hpvCJOSG/2WUzF/JqwWoUwy64dOSj0OcvvMIRi8r4Uv8Qw2pxYH3lxg+0lV6bxyYjW8s6+DC+b7Djvw==",
+  "dgSpecHash": "5rdOfZtk+fz9818GXvhZiUBLU+5A+u6bVU/9m1wmRaQGDAInbgv1kRDYcZvrq1ogrUJtrGuxJcQhyBOvTS8bPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+  "projectFilePath": "C:\\Users\\remo2\\Desktop\\Laby z Siwoniem\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\remo2\\.nuget\\packages\\google.protobuf\\3.22.1\\google.protobuf.3.22.1.nupkg.sha512",
     "C:\\Users\\remo2\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

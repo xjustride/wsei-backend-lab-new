@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\remo2\\Desktop\\Laby z Siwoniem\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\remo2\\Desktop\\Laby z Siwoniem\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\remo2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\remo2\\Desktop\\entity\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\remo2\\Desktop\\Laby z Siwoniem\\kopia\\wsei-backend-lab-entity\\wsei-backend-lab-entity\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\remo2\\AppData\\Roaming\\NuGet\\NuGet.Config",

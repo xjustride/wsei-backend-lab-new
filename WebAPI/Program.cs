@@ -14,6 +14,7 @@ using Web.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.AddSingleton<JwtSettings>();
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(new JwtSettings(builder.Configuration));
@@ -21,10 +22,10 @@ builder.Services.ConfigureCors();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = @"JWT Authorization header using the Bearer scheme.
-              Enter 'Bearer' and then your token in the text input below.
+              Enter 'Bearer' [then your token] in the text input below.
               Example: 'Bearer 12345abcdef'",
         Name = "Authorization",
         In = ParameterLocation.Header,
@@ -56,16 +57,12 @@ builder.Services.AddSwaggerGen(options =>
         Title = "Quiz API",
     });
 });
+
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(QuizProfile).Assembly);
-// builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
 builder.Services.AddDbContext<QuizDbContext>();
 builder.Services.AddTransient<IQuizUserService, QuizUserServiceEF>();
-builder.Services.AddDbContext<QuizDbContext>();                             // infrastructure
-builder.Services.AddTransient<IQuizUserService, QuizUserServiceEF>();       // infrastructure
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -75,8 +72,21 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts(); // HTTP Strict Transport Security Protocol
+}
 
+app.UseStaticFiles(); // Before UseRouting or any authentication middleware if static files are public.\
+app.UseRouting();
+app.UseCors("CorsPolicy");
+app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
 app.AddUsers();
 app.MapControllers();
