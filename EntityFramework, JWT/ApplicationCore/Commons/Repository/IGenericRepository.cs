@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Interfaces.Criteria;
+using ApplicationCore.Models;
 
 namespace ApplicationCore.Interfaces.Repository;
 
@@ -17,4 +18,8 @@ public interface IGenericRepository<T, K> where T: IIdentity<K> where K : ICompa
     void Update(K id, T o);
     
     IEnumerable<T> FindBySpecification(ISpecification<T> specification = null);
+
+    // W repozytorium IGenericRepository
+    void Delete(T entity);
+
 }

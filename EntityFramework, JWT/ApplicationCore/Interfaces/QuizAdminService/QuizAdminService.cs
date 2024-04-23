@@ -38,4 +38,5 @@ public class QuizAdminService:IQuizAdminService
     public List<Quiz> FindAllQuizzes()
     { return quizRepository.FindAll();
     }
+
 }

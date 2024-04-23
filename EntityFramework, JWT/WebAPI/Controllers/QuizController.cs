@@ -72,4 +72,23 @@ public class QuizController: ControllerBase
             }).ToList()
         };
     }
+
+    [HttpDelete("{quizId}/items/{itemId}/answers/{userId}")]
+    public ActionResult DeleteAnswer(int quizId, int itemId, int userId)
+    {
+        try
+        {
+            _service.DeleteUserAnswerForQuiz(quizId, itemId, userId);
+            return NoContent();
+        }
+        catch (QuizNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+    }
+
 }

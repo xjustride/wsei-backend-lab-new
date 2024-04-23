@@ -20,4 +20,6 @@ public interface IQuizUserService
         return GetUserAnswersForQuiz(quizId, userId)
             .Count(e => e.IsCorrect());
     }
+    void DeleteUserAnswerForQuiz(int quizId, int quizItemId, int userId);
+
 }

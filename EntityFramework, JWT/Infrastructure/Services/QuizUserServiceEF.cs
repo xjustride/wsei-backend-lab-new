@@ -77,4 +77,18 @@ public class QuizUserServiceEF (
 
         return userAnswers;
     }
+    public void DeleteUserAnswerForQuiz(int quizId, int quizItemId, int userId)
+    {
+        var answer = _context.UserAnswers
+            .FirstOrDefault(a => a.QuizId == quizId && a.QuizItemId == quizItemId && a.UserId == userId);
+
+        if (answer == null)
+        {
+            throw new QuizNotFoundException($"No answer found for quiz {quizId}, item {quizItemId}, user {userId}.");
+        }
+
+        _context.UserAnswers.Remove(answer);
+        _context.SaveChanges();
+    }
+
 }

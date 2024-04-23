@@ -60,4 +60,20 @@ public class QuizUserService: IQuizUserService
         //     .ToList();
         return _answerRepository.FindBySpecification(new QuizItemsForQuizIdFilledByUser(quizId, userId)).ToList();
     }
+    // W klasie QuizUserService
+    // W klasie QuizUserService
+    public void DeleteUserAnswerForQuiz(int quizId, int quizItemId, int userId)
+    {
+        var userAnswer = _answerRepository.FindBySpecification(new QuizItemsForQuizIdFilledByUser(quizId, userId))
+                                          .FirstOrDefault(answer => answer.QuizId == quizItemId);
+
+        if (userAnswer == null)
+        {
+            throw new QuizAnswerNotFoundException(quizId, quizItemId, userId);
+        }
+
+        _answerRepository.Delete(userAnswer);
+    }
+
+
 }

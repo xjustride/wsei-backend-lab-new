@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Interfaces.Criteria;
 using ApplicationCore.Interfaces.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Memory.Repository;
 
@@ -73,5 +74,21 @@ public class MemoryGenericRepository<T, K>:IGenericRepository<T, K> where T: cla
     public IEnumerable<T> FindBySpecification(ISpecification<T> specification = null)
     {
         return MemorySpecificationEvaluator<T>.GetQuery(_data.Values.AsQueryable(), specification);
+    }
+
+    public void Delete(T entity)
+    {
+        if (entity == null)
+        {
+            throw new ArgumentNullException(nameof(entity));
+        }
+
+        K id = entity.Id;
+        if (!_data.ContainsKey(id))
+        {
+            throw new KeyNotFoundException($"Entity with key {id} not found.");
+        }
+
+        _data.Remove(id);
     }
 }
