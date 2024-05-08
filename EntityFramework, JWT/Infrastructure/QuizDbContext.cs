@@ -10,6 +10,10 @@ public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
     public DbSet<QuizItemEntity> QuizItems { get; set; }
     public DbSet<QuizItemUserAnswerEntity> UserAnswers { get; set; }
     public DbSet<UserEntity> Users { get; set; }
+    public QuizDbContext(DbContextOptions<QuizDbContext> options)
+        : base(options)
+    {
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
